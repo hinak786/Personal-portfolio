@@ -32,7 +32,24 @@ These results reflect the browser checks I reported as passed.
 
 ## Published website verification
 
-Pending: After GitHub Pages publication, check the live website, navigation, profile links, and mobile layout.
+Website: https://hinak786.github.io/Personal-portfolio/
+Date: September 16, 2026
+
+Manual results reported by the student:
+
+- Website loads with its styling and content: Pass.
+- About, Resume, and Portfolio navigation: Pass.
+- GitHub profile link: Pass.
+- LinkedIn profile link: Pass after correction.
+- Mobile layout at 375 pixels, with no sideways scrolling: Pass.
+- Browser console after reloading and navigating: No red errors reported.
+
+Issue found: The original LinkedIn link returned a 404 page.
+
+Fix: Updated the LinkedIn address in index.html to:
+https://www.linkedin.com/in/hina-k-2ab37590/
+
+Retest: Confirmed that the corrected link opens my profile.
 
 ## AI assistance
 
