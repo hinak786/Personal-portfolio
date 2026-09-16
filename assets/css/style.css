@@ -1880,3 +1880,124 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+/* Hina Khoja: responsive layout and accessibility */
+[hidden] { display: none !important; }
+
+main,
+.main-content,
+.info-content,
+.service-content-box {
+  min-width: 0;
+}
+
+.sidebar,
+.sidebar.active {
+  max-height: none;
+}
+
+.avatar-box { flex-shrink: 0; }
+
+.avatar-initials {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.info-content .name { white-space: normal; }
+
+.info-content .title {
+  width: fit-content;
+  max-width: 100%;
+}
+
+.about-text,
+.timeline-text,
+.service-item-title,
+.service-item-text,
+.contact-info {
+  overflow-wrap: anywhere;
+}
+
+.service-list { grid-template-columns: minmax(0, 1fr); }
+.research-card .service-content-box { text-align: left; }
+
+.research-card .service-item-text + .service-item-text {
+  margin-top: 12px;
+}
+
+.skills-list { cursor: default; }
+
+.info_more-btn,
+.navbar-link {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.contact-info .contact-link {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--orange-yellow-crayola);
+  outline-offset: 4px;
+}
+
+.info_more-btn:focus-visible { outline-offset: -3px; }
+
+.site-footer {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding: 0 24px 90px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.site-footer a {
+  display: inline;
+  color: var(--orange-yellow-crayola);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 1249px) {
+  .sidebar-info_more { display: none; }
+  .sidebar.active .sidebar-info_more { display: block; }
+}
+
+@media (min-width: 580px) {
+  .avatar-initials { width: 120px; height: 120px; }
+}
+
+@media (min-width: 1024px) {
+  .service-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-footer { padding-bottom: 24px; }
+}
+
+@media (min-width: 1250px) {
+  .avatar-initials { width: 150px; height: 150px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Keep the mobile menu readable over scrolling content. */
+@media (max-width: 1023px) {
+  .navbar {
+    background: var(--eerie-black-2);
+    backdrop-filter: none;
+  }
+}
