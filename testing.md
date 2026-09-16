@@ -26,9 +26,9 @@ These results reflect the browser checks I reported as passed.
 
 ## Screenshot evidence
 
-- [Portfolio content test: both research experiences](./test-portfolio.png)
-- [Mobile layout test: 375-pixel viewport](./test-mobile.png)
-- [Keyboard navigation test: visible focus outline](./test-keyboard.png)
+- [Portfolio content test](./test-portfolio.png.png)
+- [Mobile layout test: 375-pixel viewport](./test-mobile.png.png)
+- [Keyboard navigation test](./test-keyboard.png)
 
 ## Published website verification
 
