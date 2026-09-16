@@ -26,7 +26,9 @@ These results reflect the browser checks I reported as passed.
 
 ## Screenshot evidence
 
-Add screenshots documenting at least three tests to the repository, then link them here.
+- [Portfolio content test: both research experiences](./test-portfolio.png)
+- [Mobile layout test: 375-pixel viewport](./test-mobile.png)
+- [Keyboard navigation test: visible focus outline](./test-keyboard.png)
 
 ## Published website verification
 
