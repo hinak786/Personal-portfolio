@@ -1994,3 +1994,10 @@ button:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+/* Keep the mobile menu readable over scrolling content. */
+@media (max-width: 1023px) {
+  .navbar {
+    background: var(--eerie-black-2);
+    backdrop-filter: none;
+  }
+}
