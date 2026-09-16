@@ -34,10 +34,11 @@ the 375-pixel mobile layout, keyboard navigation, and browser-console errors.
 AI assisted with planning, implementation, troubleshooting, and documentation.
 The student reported completing the manual tests and code review.
 
-## Publication
+## Live website
 
-Planned hosting: GitHub Pages.
-The verified live website URL will be added after publication.
+[Visit Hina Khoja’s professional portfolio](https://hinak786.github.io/Personal-portfolio/)
+
+Published through GitHub Pages from the master branch.
 
 ## Template attribution
 
